@@ -12,8 +12,6 @@
 
 As blockchain protocols increasingly integrate AI/LLM capabilities through oracles, a new critical attack surface emerges: **prompt injection vulnerabilities**. This tool helps security auditors and developers identify and understand these vulnerabilities before deployment.
 
-Built for the **Spearbit AI Security** role, this project demonstrates expertise at the intersection of Web3 security and AI safety.
-
 ## Features
 
 ### **Contract Analysis Engine**
@@ -236,3 +234,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Built with love for Web3 Security × AI Safety
+# AI_INJECTION_DETECTOR
