@@ -234,4 +234,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Built with love for Web3 Security × AI Safety
-# AI_INJECTION_DETECTOR
