@@ -85,7 +85,7 @@ cd ai-prompt-injection-detector
    - Potential impact
    - Mitigation strategy
 
-## 🔒 Attack Vectors Covered
+## Attack Vectors Covered
 
 ### **Critical Severity**
 - **Ignore Previous Instructions**: Complete system prompt override
@@ -96,7 +96,7 @@ cd ai-prompt-injection-detector
 - **Delimiter Escape**: Input boundary breakout
 - **Context Poisoning**: False context injection for decision manipulation
 
-## 🛠️ How It Works
+## How It Works
 
 ### **Static Analysis**
 The tool scans Solidity code using regex pattern matching to detect:
@@ -124,7 +124,7 @@ Risk Score = Σ(vulnerability severity × weight)
 - High: 25 points
 ```
 
-## 💡 Example Vulnerable Contract
+## Example Vulnerable Contract
 
 ```solidity
 // VULNERABLE: Multiple security issues
@@ -234,7 +234,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Thanks to the Web3 security community for insights on emerging threats
 
 ---
-
-**⭐ Star this repo if you find it useful!**
 
 Built with love for Web3 Security × AI Safety
