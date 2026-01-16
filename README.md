@@ -109,10 +109,10 @@ The tool scans Solidity code using regex pattern matching to detect:
 For each detected AI oracle integration, it checks for:
 
 ```javascript
-✓ Input Validation    : require(validate(userInput))
-✓ Response Verification : verifyResponse(aiResponse)  
-✓ Rate Limiting       : rateLimit modifier
-✓ Trusted Oracle      : whitelist verification
+Input Validation    : require(validate(userInput))
+Response Verification : verifyResponse(aiResponse)  
+Rate Limiting       : rateLimit modifier
+Trusted Oracle      : whitelist verification
 ```
 
 Missing controls are flagged as vulnerabilities with severity ratings.
