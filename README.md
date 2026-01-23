@@ -19,14 +19,14 @@ Tests your smart contracts against prompt injection attack vectors. Automaticall
 
 **Requirements:** Modern web browser (Chrome, Firefox, Safari, Edge)
 
-### Option 1: Open Directly
+**Option 1: Open Directly**
 1. Download `index.html`
 2. Open in any modern browser
 3. Start analyzing contracts immediately
 
 No build tools, dependencies, or setup required!
 
-### Option 2: Local Server
+**Option 2: Local Server**
 ```bash
 # Using Python
 python -m http.server 8000
@@ -35,14 +35,6 @@ python -m http.server 8000
 npx serve .
 
 # Visit http://localhost:8000
-```
-
-### Option 3: Deploy to GitHub Pages
-```bash
-git clone https://github.com/yourusername/ai-prompt-injection-detector.git
-cd ai-prompt-injection-detector
-
-# Push to GitHub and enable Pages in Settings
 ```
 
 ## Usage
@@ -58,7 +50,7 @@ cd ai-prompt-injection-detector
    - Specific vulnerabilities
    - Security checklist
 
-### Custom Analysis
+### Manual Analysis
 
 1. **Switch to Attack Library tab**
 2. **Browse attack techniques** organized by severity
@@ -117,11 +109,11 @@ The tool generates visual security reports in the dashboard including:
 
 ## Troubleshooting
 
-**Analysis not detecting vulnerabilities?** Make sure your contract includes AI oracle function calls (`aiOracle.query()`, `llm.generate()`, etc.).
+1. **Analysis not detecting vulnerabilities?** Make sure your contract includes AI oracle function calls (`aiOracle.query()`, `llm.generate()`, etc.).
 
-**False positives?** Review the security checklist and verify that your contract implements the recommended controls.
+2. **False positives?** Review the security checklist and verify that your contract implements the recommended controls.
 
-**Page not loading?** Make sure you're using a modern browser and that `index.html` is accessible.
+3. **Page not loading?** Make sure you're using a modern browser and that `index.html` is accessible.
 
 ## Contributing
 
