@@ -1,6 +1,6 @@
 # AI Prompt Injection Detector
 
-Security analysis webapp for detecting prompt injection vulnerabilities in smart contracts with AI oracle integrations.
+Security analysis web app for detecting prompt injection vulnerabilities in smart contracts with AI oracle integrations.
 
 <img src="assets/interface.png">
 
