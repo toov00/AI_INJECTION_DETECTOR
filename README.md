@@ -39,7 +39,7 @@ npx serve .
 
 ## Usage
 
-### Quick Start
+**Quick Start**
 
 1. **Navigate to Contract Analyzer tab**
 2. **Paste your Solidity code** or click "Load Example Contract"
@@ -50,7 +50,7 @@ npx serve .
    - Specific vulnerabilities
    - Security checklist
 
-### Manual Analysis
+**Manual Analysis**
 
 1. **Switch to Attack Library tab**
 2. **Browse attack techniques** organized by severity
