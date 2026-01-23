@@ -2,6 +2,8 @@
 
 Security analysis tool for detecting prompt injection vulnerabilities in smart contracts with AI oracle integrations.
 
+<img src="assets/interface.png">
+
 ## What It Does
 
 Tests your smart contracts against prompt injection attack vectors. Automatically detects AI oracle integrations, identifies missing security controls, and generates detailed security reports with risk scores.
